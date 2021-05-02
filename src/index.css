@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.px2{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.mt2{
+  margin-top: 2rem;
+}
+
+.todo{
+  margin-top: 1rem;
+}
+
+/* Если элемент todo будет с классом cpompleted */
+.todo.completed span{ 
+  text-decoration: line-through;
+}
+.todo label{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  cursor: pointer; 
+
+  background: #f3f3f3;
+}
+
+.todo i{
+  z-index: 2;
+}
